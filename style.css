@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+    background: #debd04;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 20px;
+    border: 2px black solid;
+    padding: 20px;
+    background: #fff8d3;
+    color: #8a7602;
+    font-size: 20px;
+    height: 600px;
+    border-radius: 16px;  
+}
+
+.h1Main {
+    text-align: center;
+    color: #8a7602;
+    text-shadow: 1px 1px 5px #8a7602;
+}
+
+.imgMain {
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.pMain {
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 10;
+	-webkit-box-orient: vertical;
+}
+
+.btnMain {
+    background: #debd04;
+    width: 200px;
+    border-radius: 16px;
+    font-size: 20px;
+    border-style: none;
+    color: #8a2b02;
+}
+
+.btnMain:focus {
+ color: #8a7602;
+}
+
+.btnMain:before {
+    background-color: #8a7602;
+    color: #8a7602;
+}
+
+.btnMain:active {
+    background: #8a7602;
+    cursor: pointer;
+    color: #8a7602;
+}
+
+/* divSection */
+
+.divSection {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #8a2b02;
+    border: 2px solid #000000;
+    border-radius: 16px;
+}
+
+/* Для создания эффекта фокуса */
+
+input:focus {
+    background: #eaeaea00;
+}
